@@ -15,6 +15,27 @@ public class PersonnageJoueurMedecin extends PersonnageJoueur {
 	}
 	
 	//accesseur et mutateur
+	public int getNbMedicaments(){
+		return nbMedicaments;
+	}
+	public void setNbMedicaments(int yNbMedicaments){
+		nbMedicaments = yNbMedicaments;
+	}
+	
+	//méthodes
+	public String description(){
+		String str = super.description()+this.getNbMedicaments()+" est nbMedicaments.";
+		return str;
+	}
+	public boolean estPlusGrandQue(PersonnageJoueurMedecin str2){
+		boolean str1;
+		if(str2.getTaille()<this.getTaille()){
+			str1 = true;
+		}else{
+			str1 = false;
+		}
+		return str1;
+	}
 	
 	
 }
