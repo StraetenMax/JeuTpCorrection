@@ -18,7 +18,7 @@ public class PersonnageJoueur extends Personnage {
 	}
 	
 	//méthodes
-	public void personnageMarche(){
+	public void marche(){
 		System.out.println("le personnageJoueur est entrain de marcher");
 	}	
 	public String description(){
@@ -27,7 +27,7 @@ public class PersonnageJoueur extends Personnage {
 	}
 	
 	
-	
+	//accesseur et mutateur
 	public String getNom() {
 		return nom;
 	}
