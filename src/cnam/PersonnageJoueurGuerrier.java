@@ -54,7 +54,7 @@ public class PersonnageJoueurGuerrier extends PersonnageJoueur{
 			return pJGEs;
 		}
 		public String description(){
-			String str =super.description()+this.getForce()+"est la force";
+			String str =super.description()+", "+this.getForce()+" est la force";
 			return str;
 		}
 		

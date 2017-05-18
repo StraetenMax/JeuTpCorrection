@@ -55,7 +55,7 @@ public class Personnage {
 		System.out.println("le personnage est entrain de dormir");
 	}
 	public String description(){
-		String pers = this.getRace()+" est la race, "+this.getTaille()+" la taille "+this.getPoids()+" le poids";
+		String pers = this.getRace()+" est la race, "+this.getTaille()+" m la taille, "+this.getPoids()+" kg le poids";
 		return pers;
 	}
 }

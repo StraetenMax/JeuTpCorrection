@@ -22,7 +22,7 @@ public class PersonnageJoueur extends Personnage {
 		System.out.println("le personnageJoueur est entrain de marcher");
 	}	
 	public String description(){
-		String pers = super.description()+ this.getNom()+" est le nom";
+		String pers = super.description()+", "+ this.getNom()+" est le nom";
 		return pers;
 	}
 	

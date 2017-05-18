@@ -24,7 +24,7 @@ public class PersonnageJoueurMedecin extends PersonnageJoueur {
 	
 	//méthodes
 	public String description(){
-		String str = super.description()+this.getNbMedicaments()+" est nbMedicaments.";
+		String str = super.description()+", "+this.getNbMedicaments()+" est nbMedicaments.";
 		return str;
 	}
 	public boolean estPlusGrandQue(PersonnageJoueurMedecin str2){
